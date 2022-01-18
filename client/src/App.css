@@ -1,0 +1,80 @@
+.splash {
+  font-size: 1.5rem;
+  background-color: pink;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.splash button {
+  font-size: 1.5rem;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.stack-container {
+  background-color: beige;
+}
+
+.stack-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.stack-container ul {
+  list-style-type: none;
+  padding: 10px
+}
+
+li {
+  box-shadow: 10px, 5px, 5px, black;
+  background-color: blue
+}
+
+.stack-label {
+  font-size: 2rem;
+}
+
+.header {
+  text-align: left;
+  width: 100%;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stackWindowContainer {
+  display: flex;
+  flex-direction: row;
+  left: 0px;
+  justify-content: space-between;
+}
+
+.stack-window {
+  width: 48%;
+}
+
+@media (max-width: 800px) {
+  .adminContainer {
+    display: none
+  }
+}
+
+@media (min-width: 800px) {
+  .adminScreenWarning {
+    display: none
+  }
+}
